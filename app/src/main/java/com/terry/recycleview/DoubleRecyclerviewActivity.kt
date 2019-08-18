@@ -41,9 +41,9 @@ class DoubleRecyclerviewActivity : AppCompatActivity(), CompoundButton.OnChecked
 
         val urls = ArrayList<Person>()
         for (i in 0..14) {
-            val accessible = Person("残疾人", R.drawable.ic_accessible_black_24dp)
+            val accessible = Person("超电磁炮", R.drawable.img_11)
             urls.add(accessible)
-            val accessibility = Person("健全人", R.drawable.ic_accessibility_black_24dp)
+            val accessibility = Person("皮卡丘", R.drawable.img_00)
             urls.add(accessibility)
         }
         adapter = PersonAdapter(urls)
