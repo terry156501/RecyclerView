@@ -23,8 +23,6 @@ class MainActivityT : AppCompatActivity() {
             val accessibility = Person("健全人", R.drawable.ic_accessibility_black_24dp)
             personList.add(accessibility)
         }
-        val gridLayoutManager = GridLayoutManager(this,2)
-        gridLayoutManager.spanCount
         val recyclerView = findViewById<RecyclerView>(R.id.recycler_view)
         val layoutManager = LinearLayoutManager(this)
         recyclerView.layoutManager = layoutManager
