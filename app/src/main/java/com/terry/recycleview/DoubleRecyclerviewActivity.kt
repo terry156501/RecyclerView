@@ -36,6 +36,7 @@ class DoubleRecyclerviewActivity : AppCompatActivity(), CompoundButton.OnChecked
         val recyclerView = findViewById<View>(R.id.rv_count_switch) as RecyclerView
 
         manager = GridLayoutManager(this, 2)
+
         recyclerView.layoutManager = manager
         recyclerView.setHasFixedSize(true)
 
