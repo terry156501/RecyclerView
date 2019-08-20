@@ -38,6 +38,7 @@ class DoubleRecyclerviewActivity : AppCompatActivity(), CompoundButton.OnChecked
         manager = GridLayoutManager(this, 2)
 
         recyclerView.layoutManager = manager
+
         recyclerView.setHasFixedSize(true)
 
         val urls = ArrayList<Person>()
