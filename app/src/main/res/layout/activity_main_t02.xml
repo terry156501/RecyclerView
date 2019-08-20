@@ -6,7 +6,7 @@
         android:layout_height="match_parent">
 
     <androidx.appcompat.widget.SwitchCompat
-            android:id="@+id/switch_count_01"
+            android:id="@+id/switch_count_02"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="16dp"
@@ -27,7 +27,7 @@
             android:layout_width="0dp"
             android:layout_height="0dp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/switch_count"
+            app:layout_constraintTop_toBottomOf="@+id/switch_count_02"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintBottom_toBottomOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

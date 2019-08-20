@@ -25,7 +25,7 @@ class DoubleRecyclerviewActivity : AppCompatActivity(), CompoundButton.OnChecked
 
     private fun initView() {
 
-        val switchCompat = findViewById<View>(R.id.switch_count) as SwitchCompat
+        val switchCompat = findViewById<SwitchCompat>(R.id.switch_count_02)
         switchCompat.setOnCheckedChangeListener(this)
 
         initRecyclerView()
@@ -42,7 +42,7 @@ class DoubleRecyclerviewActivity : AppCompatActivity(), CompoundButton.OnChecked
         recyclerView.setHasFixedSize(true)
 
         val urls = ArrayList<Person>()
-        for (i in 0..14) {
+        for (i in 0..19) {
             val accessible = Person("超电磁炮", R.drawable.img_11)
             urls.add(accessible)
             val accessibility = Person("皮卡丘", R.drawable.img_00)
