@@ -18,14 +18,14 @@ class DoubleRecyclerviewActivity : AppCompatActivity(), CompoundButton.OnChecked
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main_t02)
+        setContentView(R.layout.activity_main)
 
         initView()
     }
 
     private fun initView() {
 
-        val switchCompat = findViewById<SwitchCompat>(R.id.switch_count_02)
+        val switchCompat = findViewById<SwitchCompat>(R.id.switch_count)
         switchCompat.setOnCheckedChangeListener(this)
 
         initRecyclerView()
@@ -33,7 +33,7 @@ class DoubleRecyclerviewActivity : AppCompatActivity(), CompoundButton.OnChecked
 
     private fun initRecyclerView() {
 
-        val recyclerView = findViewById<View>(R.id.rv_count_switch) as RecyclerView
+        val recyclerView = findViewById<View>(R.id.RecycleView) as RecyclerView
 
         manager = GridLayoutManager(this, 2)
 
