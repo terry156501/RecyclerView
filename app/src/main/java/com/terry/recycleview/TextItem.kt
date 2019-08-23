@@ -1,5 +1,5 @@
 package com.terry.recycleview
 
-data class TextItem(
-    val value: String
+data class TextItem (
+    var value:String
 )

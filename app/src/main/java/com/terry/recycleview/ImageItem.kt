@@ -1,5 +1,5 @@
 package com.terry.recycleview
 
-data class ImageItem(
-    val value:Int
+data class ImageItem (
+    var value:Int
 )
